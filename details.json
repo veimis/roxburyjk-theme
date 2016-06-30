@@ -2,12 +2,12 @@
   "uid": "roxburyjk_theme",
   "name": "Roxbury JK theme",
   "description": "Theme for Roxbury JK pencilblue site with club manager plugin.",
-  "version": "0.1",
+  "version": "0.0.1",
+	"pb_version": "0.5.x",
   "icon": "/imgs/sample.ico",
   "author": {
     "name": "Ilkka Veima",
     "email": "ilkka.veima@gmail.com",
-    "website": "roxburyjk.fi",
     "contributors": [
     ]
   },
