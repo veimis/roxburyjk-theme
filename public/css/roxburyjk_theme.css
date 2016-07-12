@@ -26,11 +26,12 @@
     color: #grey; }
   .landing-image .socialmedia {
     font-size: 18px; }
-    .landing-image .socialmedia .icon {
-      font-size: 36px;
-      color: dimgrey; }
-      .landing-image .socialmedia .icon:hover {
-        color: white; }
+
+.icon {
+  font-size: 36px;
+  color: dimgrey; }
+  .icon:hover {
+    color: white; }
 
 .buttons {
   margin-top: 20px; }
@@ -38,6 +39,20 @@
     background-color: lightgrey; }
 
 /* Small landing page */
+.buttons-small {
+  text-align: center; }
+  .buttons-small a {
+    background-color: lightgrey; }
+
+.landing-image-small {
+  background-image: url("/public/roxburyjk_theme/imgs/rxb_heroimage_wide.jpg"); }
+
+.landing-logo {
+  max-height: 350px; }
+
+.socialmedia-small {
+  text-align: center; }
+
 body {
   background-color: #262626;
   color: grey; }

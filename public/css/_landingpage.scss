@@ -42,14 +42,15 @@
 
   .socialmedia {
     font-size: 18px;
-    .icon {
-      font-size: 36px;
-      color: dimgrey;
+  }
+}
 
-      &:hover {
-        color: white;
-      }
-    }
+.icon {
+  font-size: 36px;
+  color: dimgrey;
+
+  &:hover {
+    color: white;
   }
 }
 
@@ -62,3 +63,22 @@
 }
 
 /* Small landing page */
+.buttons-small {
+  text-align: center;
+
+  a {
+    background-color: lightgrey;
+  }
+}
+
+.landing-image-small{
+  background-image: url('/public/roxburyjk_theme/imgs/rxb_heroimage_wide.jpg');
+}
+
+.landing-logo {
+  max-height: 350px;
+}
+
+.socialmedia-small {
+  text-align: center;
+}
