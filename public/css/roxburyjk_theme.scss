@@ -1,22 +1,6 @@
-/* Landingpage layout media queries
- * Display large or small landingpage
- * depending on the screen width.
- */
-@media (max-width: 1023px) {
-  #landingpage_large {
-    display: none;
-  }
-}
+@import 'landingpage';
 
-@media (min-width: 1024px) {
-  #landingpage_small {
-    display: none;
-  }
+body {
+  background-color: black;
+  color: grey;
 }
-
-/* Large landing page */
-.landing-image {
-  height: 500px;
-}
-
-/* Small landing page */

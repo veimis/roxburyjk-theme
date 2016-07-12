@@ -29,6 +29,12 @@ module.exports = function(pb) {
       code: 200
     };
 
+    // Register angular controller for pencilblue navigation
+    var ok = this.ts.registerLocal('angular', function(flag, cb) {
+      var angularData = pb.ClientJs.getAngularController({}, ['ngSanitize']);
+      cb(null, angularData);
+    });
+
     this.ts.load('landing_page', function(error, result) {
       reply.content = result;
       cb(reply);

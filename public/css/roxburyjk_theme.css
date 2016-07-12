@@ -10,8 +10,33 @@
     display: none; } }
 /* Large landing page */
 .landing-image {
-  height: 500px; }
+  height: 500px;
+  background-image: url("/public/roxburyjk_theme/imgs/rxb_heroimage_wide.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+  .landing-image .row {
+    height: 250px; }
+  .landing-image .title {
+    color: white; }
+    .landing-image .title small {
+      color: white; }
+  .landing-image .description {
+    margin-top: 130px;
+    color: grey; }
+  .landing-image .socialmedia {
+    font-size: 36px; }
+    .landing-image .socialmedia a {
+      color: dimgrey; }
+      .landing-image .socialmedia a:hover {
+        color: white; }
+
+.buttons {
+  margin-top: 20px; }
 
 /* Small landing page */
+body {
+  background-color: black;
+  color: grey; }
 
 /*# sourceMappingURL=roxburyjk_theme.css.map */
