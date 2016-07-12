@@ -19,7 +19,7 @@
   height: 500px;
   background-image: url('/public/roxburyjk_theme/imgs/rxb_heroimage_wide.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 
   .row {
@@ -37,13 +37,13 @@
   .description {
     margin-top: 130px;
 
-    color: grey;
+    color: #grey;
   }
 
   .socialmedia {
-    font-size: 36px;
-
-    a {
+    font-size: 18px;
+    .icon {
+      font-size: 36px;
       color: dimgrey;
 
       &:hover {
