@@ -38,6 +38,9 @@ a.list-group-item:hover {
     .statistics {
       font-size: 26px; } }
 
+.score {
+  font-weight: bold; }
+
 /* Landingpage layout media queries
  * Display large or small landingpage
  * depending on the screen width.
