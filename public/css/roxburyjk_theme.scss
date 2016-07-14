@@ -1,6 +1,65 @@
-@import 'landingpage';
-
 body {
   background-color: #262626;
   color: grey;
 }
+
+/* Media query variables */
+$screenExtraSmall: 768px;
+
+$darkHighlight: #999999;
+$lightBackground: silver;
+
+.panel-roxbury {
+  background-color: $lightBackground;
+  color: black;
+
+  .panel-heading {
+    background-color: $darkHighlight;
+  }
+
+  .well {
+    background-color: $darkHighlight;
+  }
+
+  a {
+    color: #e9e9e9;
+
+    &:hover {
+      color: #777;
+    }
+  }
+}
+
+.list-group-item {
+  background-color: $lightBackground;
+}
+
+.list-group-item-team {
+  background-color: $darkHighlight;
+  color: black;
+}
+
+a.list-group-item {
+  &:focus {
+    background-color: $darkHighlight;
+  }
+  &:hover {
+    background-color: white;
+  }
+}
+
+.nav-roxbury {
+  /* Same as bootstrap inverse navigation item background */
+  background-color: #222;
+}
+
+/* Statitics */
+.statistics {
+  font-size: 32px;
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: 28px;
+  }
+}
+
+@import 'landingpage';
+@import 'navigation';

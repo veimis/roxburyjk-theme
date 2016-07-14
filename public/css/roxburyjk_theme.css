@@ -1,11 +1,51 @@
+body {
+  background-color: #262626;
+  color: grey; }
+
+/* Media query variables */
+.panel-roxbury {
+  background-color: silver;
+  color: black; }
+  .panel-roxbury .panel-heading {
+    background-color: #999999; }
+  .panel-roxbury .well {
+    background-color: #999999; }
+  .panel-roxbury a {
+    color: #e9e9e9; }
+    .panel-roxbury a:hover {
+      color: #777; }
+
+.list-group-item {
+  background-color: silver; }
+
+.list-group-item-team {
+  background-color: #999999;
+  color: black; }
+
+a.list-group-item:focus {
+  background-color: #999999; }
+a.list-group-item:hover {
+  background-color: white; }
+
+.nav-roxbury {
+  /* Same as bootstrap inverse navigation item background */
+  background-color: #222; }
+
+/* Statitics */
+.statistics {
+  font-size: 32px; }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .statistics {
+      font-size: 28px; } }
+
 /* Landingpage layout media queries
  * Display large or small landingpage
  * depending on the screen width.
  */
-@media (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   #landingpage_large {
     display: none; } }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   #landingpage_small {
     display: none; } }
 /* Large landing page */
@@ -54,8 +94,7 @@
 .socialmedia-small {
   text-align: center; }
 
-body {
-  background-color: #262626;
-  color: grey; }
+.navigation-logo {
+  max-height: 250px; }
 
 /*# sourceMappingURL=roxburyjk_theme.css.map */
