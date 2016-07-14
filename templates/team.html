@@ -2,8 +2,9 @@
   <div class="container" ng-controller="TeamController">
     <div class="row">
       
-      <!-- List of players -->
       <div class="col-sm-3">
+        ^tmp_logo^
+
         <!-- List players of each team -->
         <div class="list-group" ng-repeat="team in teams">
           <a class="list-group-item list-group-item-team" 
@@ -25,8 +26,22 @@
         </div>
       </div>
     
+    <div class="col-sm-9">
+      <div class="row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-inverse nav-roxbury" role="navigation">
+          <ul class="nav navbar-nav navbar-inverse">
+            ^navigation^
+          </ul>
+        </nav>
+      </div>
+      </div>
+      <div>
+
+      <div class="row">
+
       <!-- Player image -->
-      <div class="col-sm-4">
+      <div class="col-sm-5">
         <img class="img-responsive" ng-src="{{selected.profilePicture.location}}" alt="profile image" />
         <div ng-if="selected.stats" class="statistics">
           <i ng-class="statistics.getIcon('goal')"></i>
@@ -41,7 +56,7 @@
       </div>
 
       <!-- Player description -->
-      <div class="col-sm-5">
+      <div class="col-sm-7">
         <div ng-show="selected" class="ng-hide panel panel-roxbury">
           <div class="panel-heading">
             <h3 class="panel-title">{{selected.name}} #{{selected.number}}</h3>
@@ -51,6 +66,8 @@
           </div>
         </div>
       </div>
+      </div>
+    </div>
 
     </div>
   </div>
