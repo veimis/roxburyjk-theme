@@ -59,7 +59,11 @@
       <div class="col-sm-7">
         <div ng-show="selected" class="ng-hide panel panel-roxbury">
           <div class="panel-heading">
-            <h3 class="panel-title">{{selected.name}} #{{selected.number}}</h3>
+            <h3 class="panel-title">
+              <a ng-href="/club-manager/player/?name={{selected.name}}">
+                {{selected.name}} #{{selected.number}}
+              </a>
+            </h3>
           </div>
           <div class="panel-body">
             <section ng-bind-html="selected.description"></section>
