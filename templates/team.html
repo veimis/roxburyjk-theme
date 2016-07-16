@@ -36,6 +36,9 @@
           <div ng-repeat="article in articles">
             <p ng-bind-html="article.article_layout"></p>
           </div>
+          <div ng-repeat="report in matches">
+            <p ng-bind-html="report.description"></p>
+          </div>
         </div>
       </div>
     </div>
