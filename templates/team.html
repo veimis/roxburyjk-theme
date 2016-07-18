@@ -33,11 +33,8 @@
     <div class="col-sm-9">
       <div class="row">
         <div class="col-sm-12">
-          <div ng-repeat="article in articles">
-            <p ng-bind-html="article.article_layout"></p>
-          </div>
-          <div ng-repeat="report in matches">
-            <p ng-bind-html="report.description"></p>
+          <div ng-repeat="post in posts">
+            <p ng-bind-html="post.article_layout == undefined ? post.description : post.article_layout"></p>
           </div>
         </div>
       </div>
