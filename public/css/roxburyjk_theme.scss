@@ -66,5 +66,10 @@ a.list-group-item {
   font-weight: bold;
 }
 
+/* Dropdown menu */
+.dropdown-menu {
+  background-color: $darkHighlight;
+}
+
 @import 'landingpage';
 @import 'navigation';

@@ -21,7 +21,7 @@
           </a>
           <ul class="dropdown-menu">
             <li ng-repeat="match in matches"> 
-              <a ng-href="/club-manager/match/?name={{match.name}}">
+              <a ng-click="showMatch(match);">
                 {{match.name}}
               </a>
             </li>
