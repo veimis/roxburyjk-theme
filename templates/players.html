@@ -3,7 +3,16 @@
   <div class="row">
      
     <div class="col-sm-3">
-      ^tmp_logo^
+      <div>
+        ^tmp_logo^
+      </div>
+      <ul class="nav nav-pills nav-stacked">
+       <li ng-if="teams.length === 1">
+          <a ng-href="/club-manager/?team={{teams[0].name}}">
+            Joukkue 
+          </a>
+        </li>
+      </ul>
 
       <!-- List players of each team -->
       <div class="list-group" ng-repeat="team in teams">
@@ -28,12 +37,6 @@
     
     <div class="col-sm-9">
       
-      <div class="row">
-        <div class="col-sm-12">
-          ^tmp_navigation^
-        </div>
-      </div>
-
       <div class="row">
         <!-- Player image -->
         <div class="col-sm-5">
