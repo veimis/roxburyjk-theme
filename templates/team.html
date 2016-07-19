@@ -1,4 +1,5 @@
 ^tmp_head^
+^angular^
 <div class="container" ng-controller="TeamController">
   <div class="row">
      
@@ -34,7 +35,14 @@
       <div class="row">
         <div class="col-sm-12">
           <div ng-repeat="post in posts">
-            <p ng-bind-html="post.article_layout == undefined ? post.description : post.article_layout"></p>
+            <!-- Aricles -->
+            <div ng-if="isArticle(post)">
+              ^tmp_elements=article^
+            </div>
+            <!-- Match reports -->
+            <div ng-if="!isArticle(post)">
+              ^tmp_match^
+            </div>
           </div>
         </div>
       </div>
@@ -42,6 +50,5 @@
 
   </div>
 </div>
-^angular^
 ^tmp_angular=team^
 ^tmp_footer^
