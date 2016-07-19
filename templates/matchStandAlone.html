@@ -3,13 +3,19 @@
 <div class="container" ng-controller="MatchStandaloneController">
   <div class="row">
     <div class="col-sm-3">
-      ^tmp_logo^
+      <div>
+        ^tmp_logo^
+      </div>
+      <ul class="nav nav-pills nav-stacked">
+        <li>
+          <a ng-href="/club-manager/?team={{team}}">
+            Joukkue 
+          </a>
+        </li>
+      </ul>
     </div>
     <div class="col-sm-9">
       <div class="row">
-        <div class="col-sm-12">
-          ^tmp_navigation^
-        </div>
         <div class="col-sm-9">
           ^tmp_match^
         </div>
