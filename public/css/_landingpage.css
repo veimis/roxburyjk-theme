@@ -1,0 +1,60 @@
+/* Landingpage layout media queries
+ * Display large or small landingpage
+ * depending on the screen width.
+ */
+@media screen and (max-width: 1023px) {
+  #landingpage_large {
+    display: none; } }
+@media screen and (min-width: 1024px) {
+  #landingpage_small {
+    display: none; } }
+/* Large landing page */
+.landing-image {
+  height: 500px;
+  background-image: url("/public/roxburyjk-theme/imgs/rxb_heroimage_wide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .landing-image .row {
+    height: 250px; }
+  .landing-image .title {
+    color: white; }
+    .landing-image .title small {
+      color: white; }
+  .landing-image .description {
+    margin-top: 130px;
+    color: #grey; }
+  .landing-image .socialmedia {
+    font-size: 18px; }
+
+.icon {
+  font-size: 36px;
+  color: dimgrey; }
+  .icon:hover {
+    color: white; }
+
+.buttons {
+  margin-top: 20px; }
+  .buttons .btn {
+    background-color: lightgrey; }
+
+/* Small landing page */
+.buttons-small {
+  margin-top: 20px;
+  text-align: center; }
+  .buttons-small a {
+    background-color: lightgrey; }
+
+.landing-image-small {
+  max-width: 683;
+  background-image: url("/public/roxburyjk-theme/imgs/rxb_heroimage_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.landing-logo {
+  max-height: 350px; }
+
+.socialmedia-small {
+  text-align: center; }
+
+/*# sourceMappingURL=_landingpage.css.map */
