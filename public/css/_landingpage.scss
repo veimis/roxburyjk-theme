@@ -17,7 +17,7 @@
 /* Large landing page */
 .landing-image {
   height: 500px;
-  background-image: url('/public/roxburyjk_theme/imgs/rxb_heroimage_wide.jpg');
+  background-image: url('/public/roxburyjk-theme/imgs/rxb_heroimage_wide.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -73,7 +73,10 @@
 }
 
 .landing-image-small{
-  background-image: url('/public/roxburyjk_theme/imgs/rxb_heroimage_wide.jpg');
+  max-width: 683;
+  background-image: url('/public/roxburyjk-theme/imgs/rxb_heroimage_small.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .landing-logo {
